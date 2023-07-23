@@ -1,8 +1,23 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/* html,body{ */
+  /* height: 50%; */
+  /* width: 100%;
+  margin: 0px;
+} */
+/* table{
+  border-collapse: collapse;
 
-a {
-  color: #00B7FF;
 }
+table .a{
+  table-layout: fixed;
+  width:180px;
+
+} */
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+/* .abc{
+  border: 3px solid;
+  /* text-align: center; */
+  /* display: flex; */
+/* } */ 
+
