@@ -117,7 +117,68 @@ const glossary = [{
     term:'Customer centric action',
     definition:'this team provide small description of the conversation to the customer and end user to develop service and product.',
     references:'https://www.atlassian.com/devops/what-is-devops#:~:text=Customer%2Dcentric%20action,services%20centered%20around%20user%20needs.'
+},
+{
+    id:'21',
+    term:'Image',
+    definition:'A small, independent and executable software package that contains the code, runtime, libraries, and system tools necessary to run a piece of software.',
+    references:'https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/03.htm'
+},
+{
+    id:'22',
+    term:'Container',
+    definition:'A Docker image that can be run. The program and its dependencies are enclosed in an isolated environment and provide isolation through containers.',
+    references:'https://learning.oreilly.com/library/view/bootstrapping-microservices-with/9781617297212/OEBPS/Text/03.htm#heading_id_5'
+},
+{
+    id:'23',
+    term:'Registry',
+    definition:'A stateless, highly scalable server side application called The Registry is used to store and make Docker images available. Open-source and licensed under the Apache 2.0 license is the Registry.',
+    references:'https://docs.docker.com/registry/'
+},
+{
+    id:'24',
+    term:'Repository',
+    definition:'It can share container images through repositories with your group, your clients, or the entire Docker community. Many Docker images that are saved as tags can be found in a single Docker Hub repository. Using the docker push command, you can upload Docker images to Docker Hub.',
+    references:'https://docs.docker.com/docker-hub/repos/create/#:~:text=Repositories%20let%20you%20share%20container,with%20the%20docker%20push%20command.'
+},
+{
+    id:'25',
+    term:'Volume',
+    definition:'Feature of Docker that enables data to be kept permanently outside of the container. Data may be exchanged between containers and survive container restarts thanks to volumes.',
+    references:'https://docs.docker.com/storage/volumes/'
+},
+{
+    id:'26',
+    term:'Networking',
+    definition:'A user can connect a Docker container to as many networks as necessary thanks to Docker networking. Complete isolation for Docker containers is provided by Docker Networks.',
+    references:'https://www.simplilearn.com/tutorials/docker-tutorial/docker-networking#:~:text=Docker%20networking%20enables%20a%20user,at%20the%20Advantages%20of%20networking.'
+},
+{
+    id:'27',
+    term:'Swarm',
+    definition:'An application running on a Docker Swarm is a container orchestration tool. It has been set up to connect in a cluster. A swarm manager directs the cluster operations, and nodes are the computers that have joined the cluster.',
+    references:'https://www.sumologic.com/glossary/docker-swarm/#:~:text=A%20Docker%20Swarm%20is%20a,are%20referred%20to%20as%20nodes.'
+},
+{
+    id:'28',
+    term:'Stack',
+    definition:'In managing the orchestration of numerous containers across various machines, Docker Stack is a layer above Docker containers. A Docker Swarm is a collection of servers running the Docker daemon that are clustered together to share resources, and it is used to operate Docker Stack.',
+    references:'https://www.ronaldjamesgroup.com/blog/docker-stack#:~:text=Docker%20Stack%20sits%20at%20a,grouped%20together%2C%20essentially%20pooling%20resources.'
+},
+{
+    id:'29',
+    term:'Health Check',
+    definition:'The results of a docker health check show how accessible a containe workload is. Regardless of whether they are running or not, Docker containers are not. Even though your Docker container is still active, if your database fails, your API server could not be able to respond to requests.',
+    references:'https://www.atatus.com/blog/health-check-command-in-docker/#:~:text=A%20docker%20health%20check%20indicates,if%20your%20database%20goes%20down.'
+},
+{
+    id:'30',
+    term:'Docker Compose Override',
+    definition:'The configuration file known as docker-compose override is where you can change existing settings from docker-compose or even create entirely new services.',
+    references:'https://devilbox.readthedocs.io/en/latest/configuration-files/docker-compose-override-yml.html#:~:text=The%20docker%2Dcompose.,even%20add%20completely%20new%20services.'
 }
+
 ]
 
 module.exports = glossary
