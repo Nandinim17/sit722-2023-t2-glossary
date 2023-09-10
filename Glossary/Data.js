@@ -178,6 +178,66 @@ const glossary = [{
     definition:'The configuration file known as docker-compose override is where you can change existing settings from docker-compose or even create entirely new services.',
     references:'https://devilbox.readthedocs.io/en/latest/configuration-files/docker-compose-override-yml.html#:~:text=The%20docker%2Dcompose.,even%20add%20completely%20new%20services.'
 }
+{
+    id:'31',
+    term:'Azure Resource Group',
+    definition:'Resource groups in Azure are a new method for organizing a collection of assets into logical groups for provisioning, monitoring, and access control that is simple or even automatic as well as for better cost management.',
+    references:'https://www.otava.com/reference/how-to-use-azure-resource-groups-a-simple-explanation/#:~:text=Resource%20groups%20(RG)%20in%20Azure,effective%20management%20of%20their%20costs.'
+},
+{
+    id:'32',
+    term:'Azure Active Directory',
+    definition:'Identity and access management  software based in the cloud is available through Microsoft Azure Active Directory. It is a cloud-based directory and identity management service that gives various Microsoft services authentication and authorization capabilities.',
+    references:'https://en.wikipedia.org/wiki/Microsoft_Azure_Active_Directory'
+},
+{
+    id:'33',
+    term:'Kubernet',
+    definition:'Kubernetes improves application management by automating operational tasks associated with container management and providing built-in commands for application deployment, rollout of updates, scaling up and down to accommodate changing requirements, monitoring, and more.',
+    references:'https://cloud.google.com/learn/what-is-kubernetes#:~:text=Kubernetes%20automates%20operational%20tasks%20of,it%20easier%20to%20manage%20applications.'
+},
+{
+    id:'34',
+    term:'Kubernet Pod',
+    definition:'A collection of one or more containers, with common storage and network resources, and a specification for how to execute the containers, is referred to as a pod.',
+    references:'https://kubernetes.io/docs/concepts/workloads/pods/'
+},
+{
+    id:'35',
+    term:'Kubernet Namespaces',
+    definition:'Namespaces in Kubernetes offer a way to isolate groups of resources within a single cluster. Resources names must be distinct both within and between namespaces, but not both. Only namespaced objects can use namespace-based scoping; cluster-wide objects cannot.',
+    references:'https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/'
+},
+{
+    id:'36',
+    term:'Kubernet Secret',
+    definition:'A key, token, password, or other small quantity of sensitive information are examples of objects that carry secrets. A Pod specification or a container image could also contain this information.',
+    references:''
+},
+{
+    id:'37',
+    term:'Kubernet ConfigMap',
+    definition:'An API object called a ConfigMap is used to store non-confidential information in key-value pairs. ConfigMaps can be used by pods as command-line arguments, environment variables, or configuration files in a disk.',
+    references:'https://kubernetes.io/docs/concepts/configuration/configmap/'
+},
+{
+    id:'38',
+    term:'Terraform',
+    definition:'Terraform uses application programming interfaces (APIs) to construct and manage resources on cloud platforms and other services. Terraform can integrate with practically any platform or service that has an accessible API thanks to providers.',
+    references:'https://developer.hashicorp.com/terraform/intro'
+},
+{
+    id:'39',
+    term:'Terraform Plan',
+    definition:'You can preview the changes that Terraform intends to apply to your infrastructure by using the terraform plan command, which generates an execution plan. When Terraform produces a plan, it usually checks that the Terraform state is current by reading the most recent state of any remote objects that are already in existence, examines any discrepancies between the current configuration and the previous state, and proposes a series of modifications that, if made, ought to bring the remote objects into compliance with the configuration.',
+    references:'https://developer.hashicorp.com/terraform/cli/commands/plan'
+},
+{
+    id:'40',
+    term:'Terraform State file',
+    definition:'The terraform state file is kept in the same directory as terraform is launched by default and is named terraform.tfstate. After executing terraform apply, it is produced. A JSON-formatted mapping of the resources specified in the configuration and those that already exist in your infrastructure makes up the actual content of this file.',
+    references:'https://spacelift.io/blog/terraform-state'
+}
 
 ]
 
