@@ -1,4 +1,5 @@
-const glossary = [{
+const glossary = [
+    {
     id:'1',
     term:'Devops',
     definition:'Devops is the bunch of software and delivery packets which takes atmost care between softwareand IT actions. it is most useful to shorten the life cycle of softwae development.',
@@ -139,7 +140,7 @@ const glossary = [{
 {
     id:'24',
     term:'Repository',
-    definition:'It can share container images through repositories with your group, your clients, or the entire Docker community. Many Docker images that are saved as tags can be found in a single Docker Hub repository. Using the docker push command, you can upload Docker images to Docker Hub.',
+    definition:'It can share container images through repositories with your group, your clients, or the entire Docker community. Many Docker images that are saved as tags can be found in a single Docker Hub repository. Using the docker push command, you can upload Docker images to Docker Hub.',
     references:'https://docs.docker.com/docker-hub/repos/create/#:~:text=Repositories%20let%20you%20share%20container,with%20the%20docker%20push%20command.'
 },
 {
@@ -177,17 +178,17 @@ const glossary = [{
     term:'Docker Compose Override',
     definition:'The configuration file known as docker-compose override is where you can change existing settings from docker-compose or even create entirely new services.',
     references:'https://devilbox.readthedocs.io/en/latest/configuration-files/docker-compose-override-yml.html#:~:text=The%20docker%2Dcompose.,even%20add%20completely%20new%20services.'
-}
+},
 {
     id:'31',
     term:'Azure Resource Group',
-    definition:'Resource groups in Azure are a new method for organizing a collection of assets into logical groups for provisioning, monitoring, and access control that is simple or even automatic as well as for better cost management.',
+    definition:'Resource groups in Azure are a new method for organizing a collection of assets into logical groups for provisioning, monitoring, and access control that is simple or even automatic as well as for better cost management.',
     references:'https://www.otava.com/reference/how-to-use-azure-resource-groups-a-simple-explanation/#:~:text=Resource%20groups%20(RG)%20in%20Azure,effective%20management%20of%20their%20costs.'
 },
 {
     id:'32',
     term:'Azure Active Directory',
-    definition:'Identity and access management  software based in the cloud is available through Microsoft Azure Active Directory. It is a cloud-based directory and identity management service that gives various Microsoft services authentication and authorization capabilities.',
+    definition:'Identity and access management software based in the cloud is available through Microsoft Azure Active Directory. It is a cloud-based directory and identity management service that gives various Microsoft services authentication and authorization capabilities.',
     references:'https://en.wikipedia.org/wiki/Microsoft_Azure_Active_Directory'
 },
 {
@@ -229,7 +230,7 @@ const glossary = [{
 {
     id:'39',
     term:'Terraform Plan',
-    definition:'You can preview the changes that Terraform intends to apply to your infrastructure by using the terraform plan command, which generates an execution plan. When Terraform produces a plan, it usually checks that the Terraform state is current by reading the most recent state of any remote objects that are already in existence, examines any discrepancies between the current configuration and the previous state, and proposes a series of modifications that, if made, ought to bring the remote objects into compliance with the configuration.',
+    definition:'You can preview the changes that Terraform intends to apply to your infrastructure by using the terraform plan command, which generates an execution plan. When Terraform produces a plan, it usually checks that the Terraform state is current by reading the most recent state of any remote objects that are already in existence, examines any discrepancies between the current configuration and the previous state, and proposes a series of modifications that, if made, ought to bring the remote objects into compliance with the configuration.',
     references:'https://developer.hashicorp.com/terraform/cli/commands/plan'
 },
 {
@@ -237,8 +238,67 @@ const glossary = [{
     term:'Terraform State file',
     definition:'The terraform state file is kept in the same directory as terraform is launched by default and is named terraform.tfstate. After executing terraform apply, it is produced. A JSON-formatted mapping of the resources specified in the configuration and those that already exist in your infrastructure makes up the actual content of this file.',
     references:'https://spacelift.io/blog/terraform-state'
+},
+{
+    id:'41',
+    term:'Unit Testing',
+    definition:'A software development approach known as unit testing involves checking the functionality of the tiniest testable components, or units, of an application one by one. Unit tests are carried out by software developers and occasionally by QA personnel. Unit testing primary goal is to separate written code for testing to see if it functions as intended.',
+    references:'https://www.techtarget.com/searchsoftwarequality/definition/unit-testing#:~:text=Unit%20testing%20is%20a%20software,tests%20during%20the%20development%20process.'
+},
+{
+    id:'42',
+    term:'Integration Teating',
+    definition:'Software testing called "integration testing" involves gradually integrating software components and testing them all together. These components often function well on their own but may malfunction when combined with other components. When performing integration testing, testers seek out flaws that manifest as a result of coding conflicts between software components that arise during integration.',
+    references:'https://katalon.com/resources-center/blog/integration-testing'
+},
+{
+    id:'43',
+    term:'End to End Testing',
+    definition:'A testing technique called end-to-end testing (E2E testing) analyzes the full application flow from beginning to end. It guarantees that every component performs as planned and that the software program works properly in practical situations. In end-to-end testing, which simulates a real user scenario, the user interface, backend services, databases, and network connection are all tested from the viewpoint of the end user. E2E testing is done to verify the functionality, dependability, performance, and security of the program as a whole.',
+    references:'https://www.browserstack.com/guide/end-to-end-testing#:~:text=End%2Dto%2Dend%20testing%20(,correctly%20in%20real%2Dworld%20scenarios.'
+},
+{
+    id:'44',
+    term:'Continuous Integration',
+    definition:'The build and unit testing phases of the software release process are referred to as continuous integration. Every time a revision is committed, an automated build and test are started. Code updates are automatically built, tested, and ready for release to production when using continuous delivery. By deploying all code changes to a testing environment and/or a production environment after the build step, continuous delivery builds on continuous integration.',
+    references:'https://aws.amazon.com/devops/continuous-integration/#:~:text=Continuous%20integration%20refers%20to%20the,for%20a%20release%20to%20production.'
+},
+{
+    id:'45',
+    term:'Continuous delivery',
+    definition:'Software development practices called "continuous delivery" automatically prepare code updates for production deployment. Continuous delivery, a cornerstone of contemporary application development, builds on continuous integration by deploying any code alterations to testing and/or production environments following the build step. When properly implemented, developers will always have a build artifact that is prepared for deployment and has undergone a set of tests. ',
+    references:'https://aws.amazon.com/devops/continuous-delivery/'
+},
+{
+    id:'46',
+    term:'Continuous Deployment',
+    definition:'Code updates to an application are automatically pushed into the production environment as part of a software development method called continuous deployment. A set of specified tests serve as the engine for this automation. The mechanism directly delivers fresh updates to users of the software after they pass those tests.',
+    references:'https://www.ibm.com/topics/continuous-deployment#:~:text=Continuous%20deployment%20is%20a%20strategy,directly%20to%20the%20software"s%20users.'
+},
+{
+    id:'47',
+    term:'System Testing',
+    definition:'System testing is a type of testing that verifies a fully integrated and finished piece of software. A system test objective is to assess the complete system requirements. The software is typically just a small part of a bigger computer-based system. The software is ultimately interfaced with other software and hardware systems. System testing is described as a collection of several tests carried out only for the goal of exercising the entire computer-based system.',
+    references:'https://www.guru99.com/system-testing.html'
+},
+{
+    id:'48',
+    term:'CI server',
+    definition:'Continuous integration (CI) is a DevOps strategy created to prevent the issues that arise from integrating changes at the last minute: merge conflicts, build errors, a plethora of defects, and the dawning knowledge that your product does not actually do what your users require.',
+    references:'https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-tools/servers/'
+},
+{
+    id:'49',
+    term:'Blue-Green Development',
+    definition:'A deployment approach known as a "blue/green deployment" involves making two distinct yet identical environments. The new application version is running in environment (green) while the current application version is running in environment (blue). By streamlining the rollback procedure in the event that a deployment fails, using a blue/green deployment strategy promotes application availability and lowers deployment risk.',
+    references:'https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html'
+},
+{
+    id:'50',
+    term:'Containerization',
+    definition:'An application code and all the files and libraries it requires to function on any infrastructure are packaged together as part of the software deployment process known as containerization. Traditionally, installing the correct version of an application for your computer operating system was required in order to use it.',
+    references:'https://aws.amazon.com/what-is/containerization/#:~:text=Containerization%20is%20a%20software%20deployment,matched%20your%20machine"s%20operating%20system.'
 }
-
 ]
 
 module.exports = glossary
